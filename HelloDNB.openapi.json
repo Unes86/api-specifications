@@ -1,0 +1,61 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Hello DNB API",
+    "description": "This API can be used to make test calls.",
+    "version": "v1",
+    "contact": {
+      "name": "API Support",
+      "email": "support@example.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://api.example.com/v1"
+    }
+  ],
+  "tags": [
+    {
+      "name": "HelloDNB",
+      "description": "Operations related to HelloDNB"
+    }
+  ],
+  "paths": {
+    "/helloworld": {
+      "get": {
+        "summary": "Retrieve Hello DNB",
+        "description": "A demonstration of a GET call.",
+        "operationId": "GetHelloDnb",
+        "tags": ["HelloDNB"],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "headers": {
+              "API-Version": {
+                "description": "Full API version number",
+                "schema": { "type": "string" },
+                "example": "v1"
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "helloWorld": { "type": "string" }
+                  },
+                  "example": { "helloWorld": "DNB API Services" }
+                },
+                "examples": {
+                  "example1": {
+                    "value": { "helloWorld": "DNB API Services" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
