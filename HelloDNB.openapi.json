@@ -25,8 +25,8 @@
       "get": {
         "summary": "Retrieve Hello DNB",
         "description": "A demonstration of a GET call.",
-        "operationId": "GetHelloDnb",
-        "tags": ["HelloDNB"],
+        "operationId": "GetHelloDnbv2",
+        "tags": ["HelloDNBv2"],
         "responses": {
           "200": {
             "description": "Successful response",
