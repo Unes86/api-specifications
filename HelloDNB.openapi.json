@@ -23,15 +23,15 @@
   "paths": {
     "/helloworld": {
       "get": {
-        "summary": "Retrieve Hello DNB",
+        "summary": "retrieve-Hello-DNB",
         "description": "A demonstration of a GET call.",
-        "operationId": "GetHelloDnbv2",
+        "operationId": "GetHelloDNBv2",
         "tags": ["HelloDNBv2"],
         "responses": {
           "200": {
             "description": "Successful response",
             "headers": {
-              "API-Version": {
+              "X-API-Version": {
                 "description": "Full API version number",
                 "schema": { "type": "string" },
                 "example": "v2"
