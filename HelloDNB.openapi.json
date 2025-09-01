@@ -23,9 +23,9 @@
   "paths": {
     "/helloworld": {
       "get": {
-        "summary": "Retrieve Hello DNB",
+        "summary": "retrieve-Hello-DNB",
         "description": "A demonstration of a GET call.",
-        "operationId": "GetHelloDnbV2",
+        "operationId": "GetHelloDNBv2",
         "tags": ["HelloDNBv2"],
         "responses": {
           "200": {
