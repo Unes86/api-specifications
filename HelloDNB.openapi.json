@@ -3,7 +3,7 @@
   "info": {
     "title": "Hello DNB API v2",
     "description": "This API can be used to make test calls.",
-    "version": "v2",
+    "version": m1
     "contact": {
       "name": "API Support",
       "email": "support@example.com"
@@ -31,7 +31,7 @@
           "200": {
             "description": "Successful response",
             "headers": {
-              "API-Version": {
+              "APIX-Version": {
                 "description": "Full API version number",
                 "schema": { "type": "string" },
                 "example": "v2"
