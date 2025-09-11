@@ -2,7 +2,7 @@
   "openapi": "3.0.1",
   "info": {
     "title": "Hello DNB API v2",
-    "description": "This API can be used to make test calls.",
+    "description": "",
     "version": m1
     "contact": {
       "name": "API Support",
@@ -24,7 +24,7 @@
     "/helloworld": {
       "get": {
         "summary": "Retrieve Hello DNB",
-        "description": "A demonstration of a GET call.",
+        "description": "",
         "operationId": "GetHelloDNBv2",
         "tags": ["HelloDNBv2"],
         "responses": {
